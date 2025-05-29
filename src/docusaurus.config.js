@@ -11,7 +11,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: "原田光一",
-    tagline: "Dinosaurs are cool",
+    tagline: "ソフトウェア受託開発",
     favicon: "img/favicon.ico",
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,15 +20,17 @@ const config = {
     },
 
     // Set the production url of your site here
-    url: "https://your-docusaurus-site.example.com",
+    url: "https://koichiharadaendor.github.io",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: "/",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "facebook", // Usually your GitHub org/user name.
-    projectName: "docusaurus", // Usually your repo name.
+    organizationName: "HARADA Koichi", // Usually your GitHub org/user name.
+    projectName: "WebSite", // Usually your repo name.
+    deploymentBranch: "gh-pages",
+    trailingSlash: false,
 
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
@@ -37,8 +39,8 @@ const config = {
     // useful metadata like html lang. For example, if your site is Chinese, you
     // may want to replace "en" with "zh-Hans".
     i18n: {
-        defaultLocale: "en",
-        locales: ["en"],
+        defaultLocale: "ja",
+        locales: ["ja"],
     },
 
     presets: [
@@ -51,7 +53,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                        "https://github.com/KoichiHaradaEndor/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
                 },
                 blog: {
                     showReadingTime: true,
@@ -62,7 +64,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                        "https://github.com/KoichiHaradaEndor/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
                     // Useful options to enforce blogging best practices
                     onInlineTags: "warn",
                     onInlineAuthors: "warn",
@@ -81,9 +83,9 @@ const config = {
             // Replace with your project's social card
             image: "img/docusaurus-social-card.jpg",
             navbar: {
-                title: "My Site",
+                title: "原田光一",
                 logo: {
-                    alt: "My Site Logo",
+                    alt: "原田光一",
                     src: "img/logo.svg",
                 },
                 items: [
@@ -139,7 +141,7 @@ const config = {
                             },
                             {
                                 label: "GitHub",
-                                href: "https://github.com/facebook/docusaurus",
+                                href: "https://github.com/KoichiHaradaEndor/docusaurus",
                             },
                         ],
                     },
